@@ -30,11 +30,32 @@ url: "https://b-abdou-dev.github.io/jekyll_site/" # the base hostname & protocol
 twitter_username: bela
 github_username:  bela
 
+
+# bellow is section of new fields that are not defaulted by minima theme
+# author field used in minima theme, but not defaulted.     ..added
+author: A.Bela
+
+# copyright field used in minima theme, but not defaulted.   ..added
+copyright: "Techscan"
+
+# for adding social media account in the footer use the following variables --copied from social.html     .. added
+youtube_username:
+github_username: 
+#linkedin_username: 
+#twitter_username:
+#facebook_username:
+
+# adding logo
+title-logo: /images/title-logo.png
+
+
+
+
 # Build settings
 
-# remove minima theme       .. change
-# theme: minima
-plugins:
+# remove minima theme       .. added
+# theme: minima             .. commented
+plugins:  
   - jekyll-feed
 
 # Exclude from processing.
